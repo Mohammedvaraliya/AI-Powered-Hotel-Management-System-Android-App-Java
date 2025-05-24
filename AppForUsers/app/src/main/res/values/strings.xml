@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name" translatable="false">Hotel Management System (AI + Normal)</string>
-    <string name="default_web_client_id">688655474865-t5vhgkqprni94q2n1t8qjibhvpq4imr2.apps.googleusercontent.com</string>
-    <string name="firebase_database_url">https://madl-project-c10fa-default-rtdb.firebaseio.com</string>
-    <string name="google_api_key">AIzaSyA_No72ARH9sFf8QeTbbFlWAfQXp09m1PA</string>
-    <string name="project_id" translatable="false">madl-project-c10fa</string>
+    <string name="default_web_client_id">...</string>
+    <string name="firebase_database_url">...</string>
+    <string name="google_api_key">...</string>
+    <string name="project_id" translatable="false">...</string>
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="nav_header_title" translatable="false">Android Studio</string>
