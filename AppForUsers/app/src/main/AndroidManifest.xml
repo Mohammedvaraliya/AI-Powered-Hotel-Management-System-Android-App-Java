@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project"
+        android:value="@integer/google_play_services_version"
+        tools:targetApi="31">
+        <activity
+            android:name=".hotel.aiSystem.VoiceAIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.normalSystem.OrderReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.normalSystem.SuccessOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.normalSystem.MenuSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.normalSystem.TableSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.aiSystem.AIMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.normalSystem.NormalMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.LoginSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session8FirebaseDatabase.Session8Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session8FirebaseDatabase.Session8Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session7LanguageLocalization.Session7Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session6UIControls.Session6Activity3"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session6UIControls.Session6Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session6UIControls.Session6Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session5MenusToolbar.Session5Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session4DatabaseCRUDApp.Session4Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session3AdvanceFeaturesApp.Session3Activity5"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session3AdvanceFeaturesApp.Session3Activity4"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session3AdvanceFeaturesApp.Session3Activity3"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session3AdvanceFeaturesApp.Session3Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session3AdvanceFeaturesApp.Session3Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session2MultiActivityApp.Session2Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".sessions.Session2MultiActivityApp.Session2Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Project.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
