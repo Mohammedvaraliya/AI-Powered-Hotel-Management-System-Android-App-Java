@@ -9,7 +9,7 @@
 
 ---
 
-![Cover Image](./assets/cover/ai_hotel_cover.png)
+![Cover Image](./assets/cover/ai_hotel_cover2.png)
 
 ---
 
